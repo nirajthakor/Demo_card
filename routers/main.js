@@ -10,7 +10,7 @@ import {
   deleteSinglePhoto,
 } from "../controller/photoController.js";
 
-router.get("/get_form", getPhotoForm);
+router.get("/", getPhotoForm);
 
 router.post("/add", upload, addPhoto);
 
